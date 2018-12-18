@@ -26,7 +26,7 @@
     <form action="Recherche.php" method ="GET">
 
         <div class="check">
-            <input type="text" class="recherche" name="Nom" placeholder="Rechercher un Profil" required>
+            <input type="text" class="recherche" name="Nom" placeholder=" Rechercher un Profil ->" required>
             <input type="submit" class="checkList" value= "Lancer">
 
         </div>    
@@ -43,7 +43,7 @@
 
                 foreach ($resultat as $key) {
                     echo "<a href='profil.php?id=".$key->id.">
-                    <p class='userlist'><img class='liste_img' src='".$key->URL_Photo."'>
+                    <p class='userlist'><img class='liste_img' src='".$key->URL_Photo." "." '>
                     <span class='listcontact1'>".$key->Prenom."</span>
                     <span class= 'listcontact2'>".$key->Nom." "."</span></p></a>";
                 }

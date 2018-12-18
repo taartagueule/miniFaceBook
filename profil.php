@@ -9,6 +9,8 @@ $result = intval($_GET["id"]);
 <html lang="en">
 
 <head>
+
+
     <link href="https://fonts.googleapis.com/css?family=Play" rel="stylesheet">
     <link rel="stylesheet" href="profil.css">
     <meta charset="UTF-8">

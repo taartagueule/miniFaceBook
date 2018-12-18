@@ -98,4 +98,6 @@ echo "<pre>";
 print_r($relations);
 echo "</pre>";
 
+echo "hello world"
+
 ?>
